@@ -1,0 +1,76 @@
+import { makeStyles } from "@material-ui/core/styles";
+
+export const cssStyle = makeStyles({
+  modal: {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    background: "#fff",
+    border: "0.75px solid #EFF0F6",
+    boxShadow: "0px 3px 16.5px rgba(8, 15, 52, 0.03)",
+    borderRadius: "7.5px",
+  },
+  form: {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    background: "#fff",
+    border: "0.75px solid #EFF0F6",
+    boxShadow: "0px 3px 16.5px rgba(8, 15, 52, 0.03)",
+    borderRadius: "7.5px",
+    width: "30vw",
+    minWidth: "500px",
+    alignSelf: "center",
+    padding: "40px",
+  },
+
+  cardElement: {
+    marginBottom: "24px",
+  },
+  button: {
+    background: "#5469d4",
+    color: "#ffffff",
+    "&:hover": {
+      color: "#5469d4",
+      background: "#E8E4EE",
+    },
+    borderRadius: "4px",
+    border: "0",
+    padding: "12px 16px",
+    fontSize: "16px",
+    fontWeight: "600",
+    cursor: "pointer",
+    display: "block",
+    transition: "all 0.2s ease",
+    boxShadow: "0px 4px 5.5px 0px rgba(0, 0, 0, 0.07)",
+    width: "100%",
+  },
+  loading: {
+    color: "rgb(105, 115, 134)",
+    fontSize: "16px",
+    lineHeight: "20px",
+    paddingTop: "12px",
+    textAlign: "center",
+  },
+  input: {
+    border: "0.75px solid #EFF0F6",
+    boxShadow: "0px 3px 16.5px rgba(8, 15, 52, 0.03)",
+    padding: "5px 10px",
+    borderRadius: "5px",
+  },
+  inputTitle: {
+    fontFamily: "Poppins",
+    fontWeight: 400,
+    fontSize: "16px",
+    color: "#303030",
+    paddingBottom: "5px",
+    paddingLeft: "5px",
+  },
+  data: {
+    display: "flex",
+    justifyContent: "space-between",
+    marginBottom: "10px",
+  },
+});

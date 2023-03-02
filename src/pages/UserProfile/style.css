@@ -1,0 +1,215 @@
+.border-box {
+    box-sizing: border-box;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.bg-primary {
+    background-color: #8967FC;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.ar-tab {
+    height: 50px;
+    /* background-color: #8967FC; */
+    border-bottom: 2px solid #EFF0F6;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 197px 197px 197px;
+    grid-column-gap: .8rem;
+    /* grid-row: auto; */
+}
+
+.grid>div {
+    /* background-color: red; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7.5px 7.5px 0px 0px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border: 0.75px solid #EFF0F6;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.grid>div.active {
+    border: none;
+    background-color: #8967FC;
+    color: #fff;
+}
+.tab-content{
+    padding:15px 5px;
+    box-sizing: border-box;
+}
+
+.text-field>label {
+    display: block;
+    color: #303030;
+    font-size: 14px;
+    font-weight: normal !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-field,.custom-select-field {
+    /* margin-top: 15px; */
+    display: inline-block;
+    width: 100%;
+}
+
+.custom-select-field >select{
+    width: 100% !important;
+    height: 50px !important;
+    box-shadow: 0px 3px 16.500001907348633px 0px #080F3408 !important;
+    border: 0.75px solid #EFF0F6 !important;
+    border-radius: 7.500000476837158px !important;
+    color: #7D7D7D;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-top:5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px; 
+}
+
+.text-field>input ,.react-tel-input input {
+    width: 100% !important;
+    height: 50px !important;
+    box-shadow: 0px 3px 16.500001907348633px 0px #080F3408 !important;
+    border: 0.75px solid #EFF0F6 !important;
+    border-radius: 7.500000476837158px !important;
+    color: #7D7D7D;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-top:5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.flag-dropdown {
+    background-color: transparent !important;
+    border: none !important;
+}
+.react-tel-input .selected-flag{
+    padding: 0 0 0 17px !important;
+}
+
+.user-avatar{
+    width: 110px;
+    height: 110px;
+    border-radius:50%;
+    border:1px solid #DFE6EC;
+    position: relative;
+    cursor: pointer;
+}
+.remove-profile{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 3;
+    background-color: #DFE6EC;
+    box-sizing: border-box;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    color:#8967FC !important;
+
+}
+.update-profile-text{
+    color:#8967FC;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn-rounded-sm{
+    height: 50px;
+    width: 217px;
+    left: 944px;
+    top: 1121px;
+    border-radius: 7.500000476837158px;
+    border:none;
+    font-size:14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.btn-rounded-sm:hover{
+    opacity:0.7;
+}
+.btn-outlined{
+    color:#8967FC;
+    background-color: transparent !important;
+    border: 2px solid #8967FC
+}
+.btn-contained{
+    color:#fff;
+    background-color: #8967FC;
+}.ml-5{
+    margin-left: 15px;
+}
+.profile-btn-group{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button[disabled]{
+    opacity:0.5;
+}
+
+.password-change-container{
+    height: calc(100vh - 230px);
+    position: relative;
+}
+.password-btn-group{
+    position: absolute;
+    bottom: 0px;
+    left: auto;
+    right: 0px;
+}
+
+@media screen and (max-width:550px) {
+    #search-box{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .grid {
+        grid-template-columns: 45% 45%;
+    }
+    
+}
+
+@media screen and (max-width: 959px){
+    .profile-btn-group{
+        width: 100% !important;
+        flex-wrap: wrap-reverse;
+
+    }
+    .btn-rounded-sm{
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .ml-5{
+        margin-left: 0px !important;
+    }
+}

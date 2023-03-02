@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,400&display=swap');
+.login-page,
+form {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.form-wrapper > div {
+  width: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg {
+  background-image: url('../../assets/side-bg.svg');
+  background-color: #8967fc;
+}
+.form-container {
+  padding: 1.4rem 3rem;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+}
+.welcome-text > .title {
+  font-size: 2.188rem;
+  font-family: 'poppins';
+  font-weight: 400;
+}
+.welcome-text > .text {
+  font-size: 17px !important;
+  font-weight: 200;
+}
+.welcome-text > p {
+  margin-block-start: 0.2rem;
+  margin-block-end: 0.2rem;
+}
+.form-group {
+  margin-top: 1rem !important;
+  position: relative !important;
+}
+
+.label {
+  display: block !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  margin-top: 1.5rem !important;
+}
+.form-control {
+  background: #eff0f6;
+  margin-top: 0.6rem !important;
+  width: 100%;
+  height: 3rem;
+  border: 0.75px solid #eff0f6;
+  outline: none;
+  border-radius: 6rem;
+  padding: 0.5rem 0.5rem !important;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 16.500001907348633px 0px #080f3408;
+}
+#show-password {
+  position: absolute;
+  right: 1.5rem;
+  top: 60%;
+}
+.fa {
+  color: #7d7d7d;
+}
+.remember-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+  justify-content: space-between;
+}
+.bg-primary {
+  background-color: #8967fc;
+  cursor: pointer;
+}
+.text-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.text-white {
+  color: #fff;
+}
+.register-link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #7d7d7d;
+}
+.register-link > span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+.forgot-password-link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+@media screen and (max-width: 740px) {
+  .form-container {
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .form-container {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form-container {
+    width: 95% !important;
+    padding: 0px 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .welcome-text {
+    text-align: center;
+    /* margin-top: 30px; */
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+  .welcome-text .title {
+    font-size: 1.25rem !important;
+  }
+  .form-wrapper {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .form-wrapper .bg {
+    display: none;
+  }
+  .form-container {
+    border-radius: 20px;
+  }
+  .logo-container {
+    width: 100%;
+    height: 1em;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .logo-image {
+    width: 5rem;
+    height: 5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    top: -2.5rem;
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

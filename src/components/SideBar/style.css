@@ -1,0 +1,32 @@
+.pro-sidebar {
+  min-height: 100vh;
+  color: #7d7d7d;
+  box-shadow: 6px 0px 10px #c9d7df33;
+  width: 200px;
+  min-width: 200px;
+  font-size: 20px;
+  position: fixed;
+}
+
+.pro-sidebar > .pro-sidebar-inner {
+  background: #fff;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-icon-wrapper {
+  font-size: 25px;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover,
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:focus {
+  color: #8967fc;
+  font-weight: 600;
+  background: #dfe6ec;
+}
+
+@media screen and (max-width: 768px) {
+  .pro-sidebar {
+    margin-top: 8%;
+    width: 80px;
+    min-width: 80px;
+  }
+}
